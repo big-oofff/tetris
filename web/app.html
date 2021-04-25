@@ -1,0 +1,5 @@
+<table (keyup)="onKeyUp" tabindex="0">
+  <tr *ngFor="let row of grid.cells">
+    <td *ngFor="let cell of row" [ngClass]="cell"></td>
+  </tr>
+</table>
